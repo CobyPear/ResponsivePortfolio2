@@ -1,0 +1,23 @@
+/* heading text */
+header {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/* all other text */
+p, a {
+    color:#777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* navbar-brand custom bg color */
+.brand-custom {
+    background-color: #4aaaa5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
