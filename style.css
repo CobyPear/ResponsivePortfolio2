@@ -10,6 +10,7 @@ body {
 header, .header {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
 }
 
 /* all other text */
@@ -23,13 +24,17 @@ p, a {
     background-color: #4aaaa5;
     padding: 20px 25px;
     font-size: 2em;
-    font-weight: bold;
 }
 
 .navbar {
     padding-top: 0;
     padding-bottom: 0;
     background-color: #ffffff;
+}
+
+/* card hr size */
+hr {
+    border-top: 3px solid rgb(0, 0, 0, .1);
 }
 
 /* Footer styles */
