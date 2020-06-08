@@ -1,5 +1,12 @@
+body {
+    background-image: url(../ResponsivePortfolio2/assets/double-bubble-outline.png);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: auto;
+}
 /* heading text */
-header {
+header, .header {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -13,11 +20,36 @@ p, a {
 /* navbar-brand custom bg color */
 .brand-custom {
     background-color: #4aaaa5;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 20px 25px;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 .navbar {
     padding-top: 0;
     padding-bottom: 0;
+    background-color: #ffffff;
+}
+
+/* Media Queries */
+Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    .brand-custom {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+}
+
+Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    
+}
+
+Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    
+    }
 }
