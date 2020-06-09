@@ -7,7 +7,7 @@ body {
     margin-top: auto;
 }
 /* heading text */
-header, .header {
+ .header {
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
@@ -24,7 +24,6 @@ p, a, .text-other {
     background-color: #4aaaa5;
     padding: 20px 25px;
     font-size: 2em;
-    width: 100%;
     text-align: center;
     margin: 0;
 }
@@ -34,13 +33,6 @@ p, a, .text-other {
     padding-bottom: 0;
     background-color: #ffffff;
 }
-
-/* links */
-#custom-just {
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-evenly;
-}  
 
 /* card hr size */
 hr {
@@ -75,21 +67,19 @@ hr {
 }
 
 /* Media Queries */
-
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    .brand-custom {
-        width: 100%;
-        text-align: center;
-    }
-
-   
+    #custom-just {
+        flex-direction: row;
+        justify-content: center;
+    }  
+ }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    .brand-custom {
-        width: max-content;
-        margin: 0;
+    #custom-just {
+        display: flex;
+        float: right;
     }
  }
 
@@ -100,5 +90,4 @@ hr {
 @media (min-width: 1200px) { }
 
 /*  Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
-    
+@media (max-width: 575.98px) { }
