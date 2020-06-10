@@ -96,9 +96,6 @@ hr {
         justify-content: flex-start;
         margin-left: 5%;
     }
-    .navbar-custom {
-    }
-
 }
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
