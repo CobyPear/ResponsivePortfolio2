@@ -67,27 +67,43 @@ hr {
 }
 
 /* Media Queries */
+/* Extra small devices (portrait phones, less than 575.98) */
+@media (max-width: 575.98px) {
+    .q-links {
+        display: flex;
+        justify-content: center;
+    }
+ }
+
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    #custom-just {
-        flex-direction: row;
+    .q-links {
+        display: flex;
         justify-content: center;
-    }  
+    }
  }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    #custom-just {
+    .q-links {
         display: flex;
-        float: right;
+        justify-content: flex-end;
+    }
+    .q-brand {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 5%;
+    }
+
+}
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .q-brand {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .q-links {
+        display: flex;
+        justify-content: flex-end;
     }
  }
-
-/* // Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
-
-/* // Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { }
-
-/*  Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { }
